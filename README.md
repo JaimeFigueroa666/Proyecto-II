@@ -41,3 +41,4 @@ GET /main.js 304 0.886 ms - -
 {
 
 ```
+![image alt] (https://github.com/JaimeFigueroa666/Proyecto-II/blob/1402e4cb1b4ffe966255eea2f2981ee1f827d518/Notificaciones.png)
