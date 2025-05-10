@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +12,6 @@
     
     <p style="max-width: 600px; margin: auto; font-size: 16px; line-height: 1.6;">
         Este requerimiento es fundamental porque resuelve uno de los principales problemas de comunicación detectados en la colonia Residencial Los Robles. La implementación de notificaciones en tiempo real asegura que todos los residentes estén informados de eventos importantes, reduciendo malentendidos y mejorando la percepción de organización por parte de la mesa directiva.
-
-
     </p>
 
     <hr style="border: 0; height: 1px; background: white; margin: 20px auto; width: 80%;">
@@ -22,12 +20,14 @@
         <input type="text" placeholder="Escriba su mensaje" id="message" autofocus 
                style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 8px;">
         
-        <button style="width: 100%; padding: 10px; background: #2575fc; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+        <button type="button" id="sendBtn" style="width: 100%; padding: 10px; background: #2575fc; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
             Enviar
         </button>
+        
+        <p id="statusMessage" style="font-size: 14px; margin-top: 10px; color: white;"></p>
     </form>
 
-    <script src="/main.js"></script>
+    <script src="/main.js" defer></script>
 
 </body>
 </html>
